@@ -7,8 +7,10 @@ export default class MeetingFilter extends Component {
 
   render(){
     return (
-      <div className="input-field col s12">
-        <select>{this.roomList(this.props.rooms)}</select>
+      <div className="row">
+        <div className="input-field col s4">
+          <select>{this.roomList(this.props.rooms)}</select>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "roomName": "Rimouski",
+    "eventOwner": "Mathieu Beauchemin",
+    "startDate": "2018-08-23T10:00:00+00:00",
+    "endDate": "2018-08-23T11:00:00+00:00",
+    "activity": "true", 
+    "percentageActivity" : "40",
+    "nbParticipent": "20"
+  },
+  {
+    "id": "2",
+    "roomName": "Montréal",
+    "eventOwner": "Perrine Honoré",
+    "startDate": "2018-08-23T12:00:00+00:00",
+    "endDate": "2018-08-23T15:00:00+00:00",
+    "activity": "false", 
+    "percentageActivity" : "00",
+    "nbParticipent": "40"
+  },
+  {
+    "id": "3",
+    "roomName": "Le balto",
+    "eventOwner": "Jean-Claude Convenant",
+    "startDate": "2018-08-23T12:00:00+00:00",
+    "endDate": "2018-08-23T15:00:00+00:00",
+    "activity": "false", 
+    "percentageActivity" : "00",
+    "nbParticipent": "5"
+  }
+]
