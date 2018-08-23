@@ -5,6 +5,7 @@ export default class Activity extends Component{
   cssPercentage(){
     return `c100 p${this.props.percentage}`
   }
+  
   render() {
     return (
       <div className={this.cssPercentage()}>
