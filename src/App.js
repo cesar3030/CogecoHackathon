@@ -15,11 +15,12 @@ class App extends Component {
   }
 
   componentDidMount(){
-    let meetings = this.formatData(myData);
-    this.setState({
-      meetings: meetings,
-      rooms: this.getRooms(meetings),
-    });
+    let intervalId = setInterval(this.fetchData, 30000)
+    this.setState({ intervalId: intervalId })
+  }
+  
+  componentWillUnmount(){
+    clearInterval(this.state.intervalId)
   }
 
   meetingsToDisplay(){
@@ -47,12 +48,43 @@ class App extends Component {
     this.forceUpdate();
   }
 
+  fetchData(){
+    // $.ajax({
+    //   method: 'GET',
+    //   url:'./data.json',
+    //   success: (data) => {
+    //     let meetings = this.formatData(JSON.parse(data));
+    //     this.setState({
+    //       meetings: meetings,
+    //       rooms: this.getRooms(meetings),
+    //     });
+    //   }
+    // });
+    fetch("https://api.example.com/items")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          let meetings = this.formatData(result);
+          this.setState({
+            meetings: meetings,
+            rooms: this.getRooms(meetings),
+          });
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        (error) => {
+          alert(error);
+        }
+      )
+  }
+
   render() {
     return (
       <div>
         <nav>
           <div className="nav-wrapper blue lighten-1">
-            <a href="#" className="brand-logo center">Cogeco Meeting rooms</a>
+            <div href="#" className="brand-logo center">Cogeco Meeting rooms</div>
             <ul id="nav-mobile" className="left hide-on-med-and-down"></ul>
           </div>
         </nav>
