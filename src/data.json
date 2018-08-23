@@ -8,7 +8,7 @@
     "activityEndTimestamp" : null,
     "nbParticpent" : "0",
     "id" : "0",
-    "percentageActivity" : 0,
+    "percentageActivity" : 30,
     "startDateLabel" : "2018/08/23 08:00:00",
     "activity" : false,
     "endDateLabel" : "08/23/2018 16:00:00"
@@ -21,7 +21,7 @@
     "activityEndTimestamp" : null,
     "nbParticpent" : "0",
     "id" : "1",
-    "percentageActivity" : 0,
+    "percentageActivity" : 50,
     "startDateLabel" : "2018/08/23 10:00:00",
     "activity" : false,
     "endDateLabel" : "08/23/2018 12:00:00"
@@ -35,7 +35,7 @@
     "activityEndTimestamp" : null,
     "nbParticpent" : "0",
     "id" : "2",
-    "percentageActivity" : 0,
+    "percentageActivity" : 100,
     "startDateLabel" : "2018/08/23 10:00:00",
     "activity" : false,
     "endDateLabel" : "08/23/2018 12:00:00"

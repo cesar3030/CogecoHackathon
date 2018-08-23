@@ -8,16 +8,30 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      meetings: null,
+      meetings: [],
+      selectedRoom: 'all',
       rooms: null,
     };
   }
 
   componentDidMount(){
+    let meetings = this.formatData(myData);
     this.setState({
-      meetings: myData,
-      rooms: this.getRooms(myData),
+      meetings: meetings,
+      rooms: this.getRooms(meetings),
     });
+  }
+
+  meetingsToDisplay(){
+    const selectedRoom = this.state.selectedRoom;
+    return this.state.meetings.filter((r) => selectedRoom === 'all' || r.roomName === selectedRoom);
+  }
+
+  formatData(data){
+    data.forEach((m) => {
+      m.roomName = m.roomName.split("@")[0].split(".")[1];
+    });
+    return data;
   }
 
   getRooms(meetings){
@@ -26,6 +40,11 @@ class App extends Component {
       if(!rooms.includes(element.roomName)) rooms.push(element.roomName);
     });
     return rooms;
+  }
+
+  roomFilter = (roomName) => {
+    this.setState({selectedRoom: roomName});
+    this.forceUpdate();
   }
 
   render() {
@@ -38,8 +57,8 @@ class App extends Component {
           </div>
         </nav>
         <div className="container">
-          <MeetingFilter rooms={this.state.rooms}/>
-          <MeetingList meetings={this.state.meetings}/>
+          <MeetingFilter onChange={this.roomFilter} rooms={this.state.rooms}/>
+          <MeetingList meetings={this.meetingsToDisplay()}/>
         </div>
       </div>
     );
