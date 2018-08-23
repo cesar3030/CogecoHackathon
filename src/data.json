@@ -1,32 +1,948 @@
 [
   {
-    "id": "1",
-    "roomName": "Rimouski",
-    "eventOwner": "Mathieu Beauchemin",
-    "startDate": "2018-08-23T10:00:00+00:00",
-    "endDate": "2018-08-23T11:00:00+00:00",
-    "activity": "true", 
-    "percentageActivity" : "40",
-    "nbParticipent": "20"
-  },
-  {
-    "id": "2",
-    "roomName": "Montréal",
-    "eventOwner": "Perrine Honoré",
-    "startDate": "2018-08-23T12:00:00+00:00",
-    "endDate": "2018-08-23T15:00:00+00:00",
-    "activity": "false", 
-    "percentageActivity" : "00",
-    "nbParticipent": "40"
-  },
-  {
-    "id": "3",
-    "roomName": "Le balto",
-    "eventOwner": "Jean-Claude Convenant",
-    "startDate": "2018-08-23T12:00:00+00:00",
-    "endDate": "2018-08-23T15:00:00+00:00",
-    "activity": "false", 
-    "percentageActivity" : "00",
-    "nbParticipent": "5"
+    "roomName" : "Salle.Bistro@cogeco.com",
+    "eventOwner" : "Nicholas Polifroni ",
+    "startDate" : 1535025600000,
+    "endDate" : 1535054400000,
+    "activityStartTimestamp" : null,
+    "activityEndTimestamp" : null,
+    "nbParticpent" : "0",
+    "id" : "0",
+    "percentageActivity" : 0,
+    "startDateLabel" : "2018/08/23 08:00:00",
+    "activity" : false,
+    "endDateLabel" : "08/23/2018 16:00:00"
+  },{
+    "roomName" : "Salle.Burlington@cogeco.com",
+    "eventOwner" : "Yasmina",
+    "startDate" : 1535032800000,
+    "endDate" : 1535040000000,
+    "activityStartTimestamp" : null,
+    "activityEndTimestamp" : null,
+    "nbParticpent" : "0",
+    "id" : "1",
+    "percentageActivity" : 0,
+    "startDateLabel" : "2018/08/23 10:00:00",
+    "activity" : false,
+    "endDateLabel" : "08/23/2018 12:00:00"
+  },{
+  
+    "roomName" : "Salle.Burlington@cogeco.com",
+    "eventOwner" : "Daniel Boisvert - (Marketing) ",
+    "startDate" : 1535032800000,
+    "endDate" : 1535040000000,
+    "activityStartTimestamp" : null,
+    "activityEndTimestamp" : null,
+    "nbParticpent" : "0",
+    "id" : "2",
+    "percentageActivity" : 0,
+    "startDateLabel" : "2018/08/23 10:00:00",
+    "activity" : false,
+    "endDateLabel" : "08/23/2018 12:00:00"
+  },{
+  
+    "roomName" : "Salle.Burlington@cogeco.com",
+    "eventOwner" : "Team Meeting",
+    "startDate" : 1535043600000,
+    "endDate" : 1535050800000,
+    "activityStartTimestamp" : null,
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "3",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 15:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Burlington@cogeco.com",
+  
+    "eventOwner" : "Annie Bujold ",
+  
+    "startDate" : 1535054400000,
+  
+    "endDate" : 1535058000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "4",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 16:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 17:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.HenriAudet@cogeco.com",
+  
+    "eventOwner" : "Jacques Royer ",
+  
+    "startDate" : 1535029200000,
+  
+    "endDate" : 1535032800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "5",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 09:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 10:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.HenriAudet@cogeco.com",
+  
+    "eventOwner" : "Atelier sur les plans de développement individuel (APPORTEZ VOTRE LUNCH!!!)  ",
+  
+    "startDate" : 1535040000000,
+  
+    "endDate" : 1535045400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "6",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 12:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 13:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.HenriAudet@cogeco.com",
+  
+    "eventOwner" : "Sylvie Dubois ",
+  
+    "startDate" : 1535045400000,
+  
+    "endDate" : 1535049000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "7",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 14:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Magog@cogeco.com",
+  
+    "eventOwner" : "Lise Beaudoin ",
+  
+    "startDate" : 1534996800000,
+  
+    "endDate" : 1535083200000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "8",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 00:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/24/2018 00:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Mauricie@cogeco.com",
+  
+    "eventOwner" : "Sylvie Dubois ",
+  
+    "startDate" : 1535031000000,
+  
+    "endDate" : 1535032800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "9",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 09:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 10:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Mauricie@cogeco.com",
+  
+    "eventOwner" : "Charles Doré ",
+  
+    "startDate" : 1535034600000,
+  
+    "endDate" : 1535043600000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "10",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 10:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 13:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Mauricie@cogeco.com",
+  
+    "eventOwner" : "Q1-Q2 Planning session ",
+  
+    "startDate" : 1535047200000,
+  
+    "endDate" : 1535054400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "11",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 14:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 16:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Montreal@cogeco.com",
+  
+    "eventOwner" : "OD projects follow-up (SDL_AMV_MFL)",
+  
+    "startDate" : 1535029200000,
+  
+    "endDate" : 1535032800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "12",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 09:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 10:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Montreal@cogeco.com",
+  
+    "eventOwner" : "Canceled: Polaris Retrospective",
+  
+    "startDate" : 1535029200000,
+  
+    "endDate" : 1535036400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "13",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 09:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 11:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Montreal@cogeco.com",
+  
+    "eventOwner" : "Revue/Rétro/Planning Alpha",
+  
+    "startDate" : 1535034600000,
+  
+    "endDate" : 1535041800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "14",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 10:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 12:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Montreal@cogeco.com",
+  
+    "eventOwner" : "Cloud DVR et Copyright",
+  
+    "startDate" : 1535045400000,
+  
+    "endDate" : 1535047200000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "15",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 14:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Montreal@cogeco.com",
+  
+    "eventOwner" : "Thu Nga Nguyen ",
+  
+    "startDate" : 1535047200000,
+  
+    "endDate" : 1535049000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "16",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 14:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 14:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.NiagaraFalls@cogeco.com",
+  
+    "eventOwner" : null,
+  
+    "startDate" : 1535043600000,
+  
+    "endDate" : 1535050800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "17",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 15:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Oakville@cogeco.com",
+  
+    "eventOwner" : "Sandra Pesut",
+  
+    "startDate" : 1535032800000,
+  
+    "endDate" : 1535036400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "18",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 10:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 11:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Oakville@cogeco.com",
+  
+    "eventOwner" : "lumapps",
+  
+    "startDate" : 1535037300000,
+  
+    "endDate" : 1535038200000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "19",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 11:15:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 11:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Oakville@cogeco.com",
+  
+    "eventOwner" : "Marco Bazzocchi ",
+  
+    "startDate" : 1535038200000,
+  
+    "endDate" : 1535045400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "20",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 11:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 13:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Oakville@cogeco.com",
+  
+    "eventOwner" : "Sophie Guilbert ",
+  
+    "startDate" : 1535047200000,
+  
+    "endDate" : 1535054400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "21",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 14:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 16:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Oakville@cogeco.com",
+  
+    "eventOwner" : "Philippe Mongeau ",
+  
+    "startDate" : 1535054400000,
+  
+    "endDate" : 1535058000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "22",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 16:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 17:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Rimouski@cogeco.com",
+  
+    "eventOwner" : "Charles Doré ",
+  
+    "startDate" : 1535027400000,
+  
+    "endDate" : 1535034600000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "23",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 08:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 10:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Rimouski@cogeco.com",
+  
+    "eventOwner" : "Mathieu Hercyk ",
+  
+    "startDate" : 1535036400000,
+  
+    "endDate" : 1535040000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "24",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 11:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 12:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Rimouski@cogeco.com",
+  
+    "eventOwner" : "Anne-Lise Rouxel ",
+  
+    "startDate" : 1535043600000,
+  
+    "endDate" : 1535045400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "25",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 13:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Rimouski@cogeco.com",
+  
+    "eventOwner" : "Révision Contenu Alyson",
+  
+    "startDate" : 1535046300000,
+  
+    "endDate" : 1535050800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "26",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:45:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 15:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Rimouski@cogeco.com",
+  
+    "eventOwner" : "Annulé: Darwin - Deployment plans",
+  
+    "startDate" : 1535049000000,
+  
+    "endDate" : 1535052600000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "27",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 14:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 15:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Sept-Iles@cogeco.com",
+  
+    "eventOwner" : "Josie",
+  
+    "startDate" : 1535031000000,
+  
+    "endDate" : 1535034600000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "28",
+  
+    "percentageActivity" : 0,
+  
+   "startDateLabel" : "2018/08/23 09:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 10:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Sept-Iles@cogeco.com",
+  
+    "eventOwner" : "Josie",
+  
+    "startDate" : 1535031000000,
+  
+    "endDate" : 1535034600000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "29",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 09:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 10:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Sept-Iles@cogeco.com",
+  
+    "eventOwner" : "Juan Carlos Avila ",
+  
+    "startDate" : 1535034600000,
+  
+    "endDate" : 1535038200000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "30",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 10:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 11:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Sept-Iles@cogeco.com",
+  
+    "eventOwner" : "Anis Ben Dekhil ",
+  
+    "startDate" : 1535038200000,
+  
+    "endDate" : 1535040000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "31",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 11:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 12:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Sept-Iles@cogeco.com",
+  
+    "eventOwner" : "Entrevue - JF Racette - recrutement",
+  
+    "startDate" : 1535045400000,
+  
+    "endDate" : 1535049000000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "32",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:30:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 14:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Windsor@cogeco.com",
+  
+    "eventOwner" : "Serge Héroux ",
+  
+    "startDate" : 1535032800000,
+  
+    "endDate" : 1535036400000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "33",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 10:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 11:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Windsor@cogeco.com",
+  
+    "eventOwner" : "Discussion on upcoming year priorities with  Internal Audit",
+  
+    "startDate" : 1535036400000,
+  
+    "endDate" : 1535038200000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "34",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 11:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 11:30:00"
+  
+  },{
+  
+    "roomName" : "Salle.Windsor@cogeco.com",
+  
+    "eventOwner" : "Daniel Wong ",
+  
+    "startDate" : 1535040000000,
+  
+    "endDate" : 1535043600000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "35",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 12:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 13:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Windsor@cogeco.com",
+  
+    "eventOwner" : "Soheil Arefi ",
+  
+    "startDate" : 1535043600000,
+  
+    "endDate" : 1535047200000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "36",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 13:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 14:00:00"
+  
+  },{
+  
+    "roomName" : "Salle.Windsor@cogeco.com",
+  
+    "eventOwner" : "Scott Lowell ",
+  
+    "startDate" : 1535047200000,
+  
+    "endDate" : 1535050800000,
+  
+    "activityStartTimestamp" : null,
+  
+    "activityEndTimestamp" : null,
+  
+    "nbParticpent" : "0",
+  
+    "id" : "37",
+  
+    "percentageActivity" : 0,
+  
+    "startDateLabel" : "2018/08/23 14:00:00",
+  
+    "activity" : false,
+  
+    "endDateLabel" : "08/23/2018 15:00:00"
+  
   }
 ]
