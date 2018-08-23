@@ -1,0 +1,11 @@
+.info-column {
+  margin-left: 20px;
+  padding-left:10px;
+  display: inline-block;
+  width: 40%;
+}
+.info-column i {
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+}
