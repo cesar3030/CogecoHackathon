@@ -32,8 +32,8 @@ class App extends Component {
     return (
       <div>
         <nav>
-          <div className="nav-wrapper">
-            <a href="#" className="brand-logo center">Logo</a>
+          <div className="nav-wrapper blue lighten-1">
+            <a href="#" className="brand-logo center">Cogeco Meeting rooms</a>
             <ul id="nav-mobile" className="left hide-on-med-and-down">
               <li><a href="sass.html">Sass</a></li>
               <li><a href="badges.html">Components</a></li>
@@ -41,8 +41,10 @@ class App extends Component {
             </ul>
           </div>
         </nav>
-        <MeetingFilter rooms={this.state.rooms}/>
-        <MeetingList meetings={this.state.meetings}/>
+        <div className="container">
+          <MeetingFilter rooms={this.state.rooms}/>
+          <MeetingList meetings={this.state.meetings}/>
+        </div>
       </div>
     );
   }
